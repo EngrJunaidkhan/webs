@@ -1,0 +1,134 @@
+h1,h2,h3{
+    
+    font-family: Florence, cursive;
+    text-align:center;
+    font-size:50px;
+    color: lawngreen;
+    
+
+}
+h3,h4{
+    font-family: Florence, cursive;
+    text-align:center;
+    font-size:50px;
+    color: darkturquoise;
+    
+    
+}
+input,select,label,legend{
+    color: orange;
+}
+
+
+p.class3{
+    
+    
+    color: orange;
+    margin:25px;
+    padding:20px;
+    width: 1250px;
+    height: 20px;
+    font-family: Florence, cursive;
+    font-size: 20px;
+}
+p.class2{
+    background: orange;
+    background-color: orange;
+    color:white;
+    margin:20px;
+    padding:20px;
+    width: 1250px;
+    height: 10px;
+}
+p.class1{
+    color: orange;
+}
+body.bg{
+    
+    height:600px;width:1000px;
+    background-repeat: repeat;
+    
+}
+
+.ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lawngreen ;
+    align-self: center;
+    width: 132%;
+    box-sizing: 500px 100px;
+}
+
+.li {
+    float: left;
+   
+   
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+    background-color: orange;
+}
+
+.active {
+    background-color: orange;
+}
+#ol {
+    background: lawngreen;
+    padding: 20px;
+    width: 1250px;
+    height: 230px;
+    border-style: outset;
+    border-width: 5px;
+    border-bottom-color: lawngreen;}
+#ol li {
+    background: orange;
+  
+    margin: 5px;
+    width: 1250px;
+    height: 40px;
+    text-align: center;
+}
+#a:link{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#a:hover{
+    background-color: red;
+}
+
+#contrast {-webkit-filter: contrast(180%);filter: contrast(180%);}
+#topright {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+   
+}
+#bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.center {
+    
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #73AD21;
+ 
+}
